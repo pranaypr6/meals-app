@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: url("../assets/bg-1.jpeg"); */
+    background-color: rgba(222, 216, 216, 0.635);
+    background-size: cover;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.search{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: -20px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.meals-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mealImg{
+    height: 100px !important;
+    width: 50px !important;
+}
+.meals-list > div{
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.meals-list > div:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.meal-btns{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meal-btns i{
+    margin-right: 10px;
+    font-size: large;
+}
+.youtube-icon{
+    float: right;
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+.toast{
+    background-color: black;
+    color: white;
+}
